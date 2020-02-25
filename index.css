@@ -1,0 +1,107 @@
+/*       tag selector         */
+a {
+    
+    color: black;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding-left: 20px;
+    background-color: lightgray;
+}
+
+body {
+    margin: auto;
+    background-color: gray;
+    color: black;
+}
+
+p {
+    margin-right: 5px;
+}
+
+/*       id selector          */
+#header-section {
+    background-color: lightgray;
+    width: 850px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+
+/*       class selector       */
+.top {
+    background-color: royalblue;
+    height: 350px;
+}
+
+.top-menu {
+    padding: 10px;
+    position: absolute;
+    top: 17rem;
+    left: 30rem;
+}
+
+/* .top-menu-background {
+    background-color: lightgray;
+} */
+
+.bottom {
+    position: relative;
+    height: 50px;
+}
+
+.bottom-menu {
+    position: absolute;
+    top: 1rem;
+    left: 15rem;
+}
+
+.image {
+    width: 14rem;
+    height: 14rem;
+    position: absolute;
+    right: 38rem;
+    bottom: 20px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.float {
+    float: left;
+}
+
+.words-image {
+    margin: 0;
+    position: absolute;
+    left: 15rem;
+    bottom: 5rem;
+}
+
+.left-border {
+    border-left: 1px solid gray;
+}
+
+.menu-word {
+    text-align: center;
+}
+
+/* two page columns below */
+
+.two-columns {
+    columns: 2;
+}
+
+.first-column {
+    margin-left: auto;
+    background-color: lightgray;
+    height: 50rem;
+    width: 144px;
+}
+
+.second-column {
+    margin-right: auto;
+    background-color: lightgray;
+    height: 50rem;
+    width: 328px;
+}
