@@ -37,7 +37,7 @@ body {
 }
 
 .two-buttons {
-    background-color: lightgray;
+    /* background-color: lightgray; */
     
 }
 
@@ -46,9 +46,9 @@ body {
     
 }
 
-.padding {
+/* .padding {
     padding: 3px;
-}
+} */
 
 .bottom {
     height: 50px;
