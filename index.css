@@ -3,11 +3,11 @@ a {
     
     color: black;
     text-decoration: none;
-    background-color: lightgray;
+    background-color: white;
 }
 
 body {
-    background-color: gray;
+    background-color: lightgray;
 }
 
 /*       id selector          */
@@ -15,7 +15,7 @@ body {
 
 #header-section {
     margin: auto;
-    background-color: lightgray;
+    background-color: white;
     width: 850px;
     height: 400px;
     position: relative;
@@ -36,10 +36,10 @@ body {
     top: 18rem;
 }
 
-.two-buttons {
-    /* background-color: lightgray; */
+/* .two-buttons {
+     background-color: lightgray; 
     
-}
+} */
 
 .like-button {
     margin-right: 10px;
@@ -56,8 +56,8 @@ body {
 
 .bottom-menu {
     position: absolute;
-    top: 23rem;
-    left: 18rem;
+    top: 22.8rem;
+    left: 17.6rem;
 }
 
 .image {
@@ -92,14 +92,30 @@ body {
 }
 .first-column {
    float: left;
-   background-color: lightgray;
+   background-color: white;
    width: 328px;
-   height: 700px;
+   height: 200px;
+   margin-bottom: 10px;
 }
 
 .second-column {
-    background-color: lightgray;
    float: right;
+   background-color: white;
    width: 512px;
-   height: 700px;
+   height: 400px;
+   margin-bottom: 10px;
+}
+
+.body-box-left {
+    background-color: white;
+   width: 328px;
+   height: 500px;
+   float: left;
+}
+
+.body-box-right {
+    background-color: white;
+    width: 512px;
+    height: 300px;
+    float: right;
 }
