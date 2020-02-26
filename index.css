@@ -6,10 +6,22 @@ a {
     background-color: white;
 }
 
+a:hover {
+    color: blue;
+}
+
 body {
     background-color: lightgray;
 }
 
+hr {
+    /* color: grey; */
+    background-color: lightgrey;
+}
+
+h4,p {
+    margin: 6px 10px;
+}
 /*       id selector          */
 
 
@@ -19,6 +31,9 @@ body {
     width: 850px;
     height: 400px;
     position: relative;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 1px;
 }
 
 
@@ -86,7 +101,7 @@ body {
 /* two page columns below */
 
 .two-columns {
-   width: 850px;
+   width: 852px;
    margin: auto;
    padding-top: 10px;
 }
@@ -94,16 +109,61 @@ body {
    float: left;
    background-color: white;
    width: 328px;
-   height: 200px;
+   height: 210px;
    margin-bottom: 10px;
+   border-style: solid;
+   border-color: darkgrey;
+   border-width: 1px;
+}
+
+.about {
+    height: 15px;
 }
 
 .second-column {
    float: right;
    background-color: white;
    width: 512px;
-   height: 400px;
+   height: 380px;
    margin-bottom: 10px;
+   border-style: solid;
+   border-color: darkgrey;
+   border-width: 1px;
+}
+
+.little-image {
+    display: flex;
+    margin: 6px 10px;
+}
+
+.word-size {
+    font-size: small;
+}
+
+.dog-image {
+    height: 45px;
+    width: 45px;
+}
+
+.post-pic {
+    height: 260px;
+    width: 500px;
+    margin-left: 6px;
+}
+
+.like {
+    color: grey;
+    display: flex;
+}
+
+.like-inside {
+    font-size: 15px;
+    margin: 3px 10px;
+}
+
+.left-dot {
+    border-left: 9px dotted gray;
+    margin: 0;
 }
 
 .body-box-left {
@@ -111,6 +171,9 @@ body {
    width: 328px;
    height: 500px;
    float: left;
+   border-style: solid;
+   border-color: darkgrey;
+   border-width: 1px;
 }
 
 .body-box-right {
@@ -118,4 +181,7 @@ body {
     width: 512px;
     height: 300px;
     float: right;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 1px;
 }
