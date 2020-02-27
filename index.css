@@ -101,14 +101,14 @@ h4,p {
 /* two page columns below */
 
 .two-columns {
-   width: 852px;
+   width: 850px;
    margin: auto;
    padding-top: 10px;
 }
 .first-column {
    float: left;
    background-color: white;
-   width: 328px;
+   width: 326px;
    height: 210px;
    margin-bottom: 10px;
    border-style: solid;
@@ -123,7 +123,7 @@ h4,p {
 .second-column {
    float: right;
    background-color: white;
-   width: 512px;
+   width: 510px;
    height: 380px;
    margin-bottom: 10px;
    border-style: solid;
@@ -166,22 +166,29 @@ h4,p {
     margin: 0;
 }
 
+/* .body-box-left {
+   box-sizing: border-box;
+} */
+
 .body-box-left {
+    float: left;
     background-color: white;
-   width: 328px;
-   height: 500px;
-   float: left;
-   border-style: solid;
-   border-color: darkgrey;
-   border-width: 1px;
-}
+    width: 326px;
+    height: 210px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 1px;
+ }
+
 
 .body-box-right {
     background-color: white;
-    width: 512px;
+    width: 510px;
     height: 300px;
     float: right;
     border-style: solid;
     border-color: darkgrey;
     border-width: 1px;
 }
+
