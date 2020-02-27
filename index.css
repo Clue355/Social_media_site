@@ -101,19 +101,20 @@ h4,p {
 /* two page columns below */
 
 .two-columns {
-   width: 852px;
+   width: 850px;
    margin: auto;
    padding-top: 10px;
 }
 .first-column {
    float: left;
    background-color: white;
-   width: 328px;
+   width: 326px;
    height: 210px;
    margin-bottom: 10px;
    border-style: solid;
    border-color: darkgrey;
    border-width: 1px;
+   box-sizing: content-box;
 }
 
 .about {
@@ -123,12 +124,13 @@ h4,p {
 .second-column {
    float: right;
    background-color: white;
-   width: 512px;
+   width: 510px;
    height: 380px;
    margin-bottom: 10px;
    border-style: solid;
    border-color: darkgrey;
    border-width: 1px;
+   box-sizing: content-box;
 }
 
 .little-image {
@@ -179,6 +181,7 @@ h4,p {
     border-style: solid;
     border-color: darkgrey;
     border-width: 1px;
+    box-sizing: content-box;
  }
 
 
@@ -190,5 +193,6 @@ h4,p {
     border-style: solid;
     border-color: darkgrey;
     border-width: 1px;
+    box-sizing: content-box;
 }
 
