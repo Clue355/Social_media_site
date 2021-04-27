@@ -6,7 +6,7 @@ Social media site mockup
 
 ## Links
 
-[Live Demo](https://clue355.github.io/tower_of_hanoi/)
+[Live Demo](https://clue355.github.io/Social_media_site/)
 
 ## Technologies Used
 
